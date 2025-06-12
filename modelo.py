@@ -5,7 +5,8 @@ import re
 import datetime
 from transformers import pipeline
 
-classifier = pipeline("sentiment-analysis")
+classifier = pipeline("sentiment-analysis",
+                      model="distilbert-base-uncased-finetuned-sst-2-english")
 
 alarm_words = ["¡increíble!", "no lo vas a creer",
                "impactante", "última hora", "alerta", "escándalo"]
