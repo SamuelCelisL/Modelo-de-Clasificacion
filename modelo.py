@@ -88,7 +88,7 @@ def analizar_noticia(url):
         idioma = detectar_idioma(texto)
 
         dominios_confiables = ["bbc.com", "cnn.com",
-                               "reuters.com", "elpais.com", "chequeado.com", "Enfoquecucutajuridico", "noticucuta", "elespectadorcom"]
+                               "reuters.com", "elpais.com", "chequeado.com", "Enfoquecucutajuridico", "noticucuta", "elespectador", "Bolavip.Colombia", "bolavip.com", "elespectadorcom"]
         resultado["fuente_confiable"] = any(
             dominio in url for dominio in dominios_confiables)
 
