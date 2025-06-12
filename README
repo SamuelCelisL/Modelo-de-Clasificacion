@@ -1,0 +1,7 @@
+Hola!!
+
+Este es la parte Back-End y el modelo de clasificacion de la aplicacion Detecter Fake News
+
+Antes de utilizar esta conexión debes utilizar el comando:
+    pip install -r requirements.txt
+para instalar todas las dependencias necerarias para utilizar de forma local
